@@ -1,0 +1,154 @@
+html, body {
+    height:100%; 
+}
+
+#registration-page {
+    height:100%;
+    background:blueviolet 
+}
+* {
+    margin:0;
+}
+#registration-page {
+    height:100%;
+    background:blueviolet; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:scroll;
+}
+  
+.signup-form  {
+    flex:1;
+    max-width:600px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px white;
+ padding-left: 20px;    
+}
+form-header {
+    padding:15px 0;
+    border-bottom:1px solid white;
+}
+
+
+form-header h1 {
+    font-size: 28px;
+    text-align:center;
+    color:white;
+}
+* {
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+.row {
+    display:flex;
+    flex-direction:row;
+}
+.input-group {
+    flex:1;  
+    display:flex;
+    flex-direction:column; 
+    margin: 10px 5px;
+}
+label {
+    color:black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: white;
+  outline: none;
+}
+input[type="tel"] {
+    font-size: 18px;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+  }
+  input[type="password"] {
+    font-size: 18px;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+  }
+.form-body {
+    background:white;
+    padding:5px 10px;
+
+}
+input[type="radio"]{
+    margin: 0 15px 0 15px;
+}
+@media only screen and (max-width: 500px) {
+    .row{
+      flex-direction:column; 
+    }
+}
+input[type="text"],
+input[type="tel"], 
+input[type="password"],
+input[type="email"] {  
+
+}
+
+signup-form {
+    flex: 1;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  radio-group {
+    display:flex;
+}
+.radio-group div {
+    flex:1;
+ }
+ radio-group label {
+    color:#666;
+    cursor:pointer;
+}
+.form-footer {
+    display:flex;
+    justify-content: left;
+}
+.btn {
+    padding:10px 20px;
+    background-color:blueviolet;
+    font-size:17px;
+    border:none;
+    width: 100%;
+    border-radius:5px;
+    /* color:#bcf; */
+    cursor:pointer;
+}
+@media only screen and (max-width: 500px) {
+    .row{
+      flex-direction:column; 
+    }
+
+    .btn {
+        flex:1;
+    }
+}

@@ -1,0 +1,174 @@
+.button{
+	background: skyblue;
+}
+#fadme{
+	opacity: 0.5;
+
+}
+.parent {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+    background-color: red;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+ #child1 {
+   width: 100%;
+ background-color: blue;
+ }
+
+ #child2 {
+    width: 100%;
+background-color: skyblue;
+ } 
+ 
+ @media (max-width: 500px) {
+    .parent {
+    
+        display: flex;
+        flex-direction: column;    
+    }
+    .child1 {
+        display: flex;
+    }
+
+    section {
+        flex: 1;   
+    }
+}
+
+#salutation{
+    width: 10%;
+}
+.Box{
+    width: 100%;
+    height: 400%;
+    border: 1px solid black;
+    
+}
+/* .Box */
+.Box{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+      /* background-color: red; */
+      justify-content: space-between;
+      /* align-items: center; */
+      
+
+  }
+
+.mainc{
+    padding-top: 10%;
+}  
+   .mainc {
+     width: 80%;
+     margin-left: 22%;
+  }
+  
+   #child2 {
+      width: 100%;
+   } 
+   
+   
+   
+
+  #body{
+    align-content: center       ;
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+#bt{
+    background-color: blueviolet;
+    width: 60%;
+    height: 40%;
+    color: white;
+}
+
+#rt{
+    background-color: blueviolet;
+    width: 220%;
+    height: 160%;
+    color: white;
+}
+
+
+/* registrationnn
+ */
+ body{
+    min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+background: rgb(130, 106, 251);
+ }
+ .container{
+    flex-direction: column;
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:0 0 15px rgb(0, 0, 0, 0.1);
+ }
+ .container header{
+    font-size: 1.5rem;
+    color: #332;
+    font-weight: 500;
+    text-align: center;
+ }
+ .container.form{
+    margin-top: 30px;
+ }
+ .form .column{
+    display: flex;
+    column-gap: 15px;
+ }
+
+ .form .column{
+    width: 100%;
+    margin-top: 20px;
+ }
+ .column input:focus{
+    box-shadow: 0 1px 0 rgb(0, 0, 0, 0.1);
+ }
+ .form .gender-box{
+    margin-top: 20px;
+ }
+ .gender label{
+color: #707070;
+ }
+
+ .form button {
+    height: 55px;
+    width: 20%;
+    color: #fff;
+    /* font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px
+    border: none;
+    cursor: pointer;
+    transition: all 0.2, ease; */
+    background: rgb(130, 106, 261);
+
+ }
+ . form button :hover{
+    background: rgb(88, 56, 250;
+ }
+ @media screen and (max-width:500px) {
+
+    .form .column {
+        flex-wrap: wrap;
+    }
+ }
+ .in{
+    width: 100%;
+ }
