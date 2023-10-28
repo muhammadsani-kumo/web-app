@@ -1,4 +1,6 @@
-function sayhello(name){ 
-    console.log("hello" + name);
-}
-sayhello('mohs');
+<script language="javascript" type="text/javascript">    
+    document.write("hello world");
+    
+    </script>
+
+    
