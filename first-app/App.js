@@ -1,1 +1,1 @@
-console.log(global.module);
+console.log(module);
